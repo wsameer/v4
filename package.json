@@ -1,4 +1,10 @@
 {
+  "name": "v4-portfolio",
+  "version": "4.0.0",
+  "description": "Sameer Waskar's portfolio made using React and Snowpack",
+  "private": true,
+  "author": "Sameer Waskar",
+  "license": "ISC",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
