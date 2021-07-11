@@ -13,5 +13,5 @@ export type TextProps = {
         | 'text-7xl'
         | 'text-8xl'
         | 'text-9xl';
-    
+    classes: string;
 };
