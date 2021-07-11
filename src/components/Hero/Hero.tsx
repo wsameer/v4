@@ -1,24 +1,39 @@
+import Text from '@components/common/Text';
 import React from 'react';
 
 export const Hero: React.FC = () => {
     return (
-        <div className="mx-auto flex px-8 py-12 md:flex-row flex-col items-start">
-            <div className="md:flex-grow md:w-1/2 md:pr-12 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start text-left">
-                <h3 className="text-lg lg:text-xl">Hi there! I am</h3>
-                <h1 className="title-font text-5xl md:text-6xl my-4 font-medium text-white">
-                    Sameer Waskar
+        <div className="mx-auto flex px-6 md:px-8 py-10 md:py-12 md:flex-row flex-col items-start">
+            <div className="md:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start text-left">
+                <Text size="text-sm" classes="text-base lg:text-xl">
+                    Hi, my name is
+                </Text>
+                <h1 className="title-font text-4xl md:text-6xl lg:text-7xl mt-6 font-bold text-white">
+                    Sameer Waskar.
                 </h1>
-                <p className="mb-8 leading-relaxed">
-                    Copper mug try-hard pitchfork pour-over freegan heirloom
-                    neutra air plant cold-pressed tacos poke beard tote bag.
-                    Heirloom echo park mlkshk tote bag selvage hot chicken
-                    authentic tumeric truffaut hexagon try-hard chambray.
-                </p>
-                <div className="flex justify-center">
-                    <button className="inline-flex text-white bg-indigo-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-700 rounded text-lg">
-                        Button
-                    </button>
-                </div>
+                <h1 className="title-font text-4xl md:text-6xl lg:text-7xl mt-2 mb-6 font-bold text-gray-600">
+                    I build things for the web.
+                </h1>
+                <Text
+                    size="text-base"
+                    classes={'mb-8 leading-relaxed lg:w-3/5'}
+                >
+                    I'm a Pune-based software engineer who specializes in
+                    building exceptional digital experiences. Currently, I'm a
+                    Senior Software Engineer at{' '}
+                    <a
+                        href="https://www.medly.com"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        className="text-purple-400"
+                    >
+                        Medly
+                    </a>{' '}
+                    focused on building a full-service, digital pharmacy.
+                </Text>
+                <button className="inline-flex text-white bg-indigo-600 border-0 mt-4 py-2 px-6 focus:outline-none hover:bg-indigo-700 rounded text-lg">
+                    Get In Touch
+                </button>
             </div>
         </div>
     );
