@@ -3,7 +3,7 @@ import React, { HTMLProps } from 'react';
 export const PageLayout: React.FC<HTMLProps<HTMLDivElement>> = React.memo(
     ({ children }) => {
         return (
-            <div className="max-w mx-auto overflow-hidden">
+            <div className="max-w mx-auto overflow-hidden lg:px-12">
                 <div className="md:flex">{children}</div>
             </div>
         );

@@ -18,12 +18,15 @@ export const About: React.FC = () => {
                     Pune, India
                 </a>
                 . With ruminations of using technology to make a positive impact
-                on a human life, Sameer has invested over a decade in learning
-                and practicing software development to distil complex technical
-                ideas into user-friendly interfaces.
+                on a human life, Sameer has invested over a{' '}
+                <span className="font-semibold text-purple-400">decade</span> in
+                learning and practicing software development to distil complex
+                technical ideas into user-friendly interfaces.
             </p>
             <p className="mb-2 text-base md:text-lg">
-                Over the past 7 years, he has had the privilege of working in{' '}
+                Over the past{' '}
+                <span className="font-semibold text-purple-400">7 years</span>,
+                he has had the privilege of working in{' '}
                 <a
                     href="https://vizitechsolutions.com"
                     rel="noopener noreferrer"
@@ -70,12 +73,20 @@ export const About: React.FC = () => {
             </p>
             <div>
                 <ul className="grid grid-cols-2 list-disc list-inside">
-                    <li className="text-sm my-2">JavaScript (ES6+)</li>
-                    <li className="text-sm my-2">React Redux</li>
-                    <li className="text-sm my-2">Node.js, Express</li>
-                    <li className="text-sm my-2">NextJS, Gatsby</li>
-                    <li className="text-sm my-2">Angular</li>
-                    <li className="text-sm my-2">Styled Components</li>
+                    <li className="text-sm md:text-base my-2">
+                        JavaScript (ES6+)
+                    </li>
+                    <li className="text-sm md:text-base my-2">React Redux</li>
+                    <li className="text-sm md:text-base my-2">
+                        Node.js, Express
+                    </li>
+                    <li className="text-sm md:text-base my-2">
+                        NextJS, Gatsby
+                    </li>
+                    <li className="text-sm md:text-base my-2">Angular</li>
+                    <li className="text-sm md:text-base my-2">
+                        Styled Components
+                    </li>
                 </ul>
             </div>
         </div>

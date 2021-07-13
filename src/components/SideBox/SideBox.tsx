@@ -21,6 +21,15 @@ export const SideBox: React.FC = () => {
                     <Socials />
                 </div>
             </div>
+            <div className="pb-8 md:p-10 md:mt-4 mb-4 md:px-4 w-full md:w-72 lg:w-80 bg-gray-800 shadow-lg text-center">
+                <a
+                    href="https://drive.google.com/open?id=1FcHm8QjFCrSFgZBs3eJbNCv8yurd-iy3"
+                    target="_blank"
+                    className="inline-flex text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-700 rounded-full text-base md:text-lg"
+                >
+                    Download CV
+                </a>
+            </div>
         </div>
     );
 };

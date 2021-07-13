@@ -31,7 +31,7 @@ export const Hero: React.FC = () => {
                     </a>{' '}
                     focused on building a full-service, digital pharmacy.
                 </Text>
-                <button className="inline-flex text-white bg-indigo-600 border-0 mt-4 py-2 px-6 focus:outline-none hover:bg-indigo-700 rounded text-lg">
+                <button className="inline-flex text-white bg-purple-600 border-0 mt-4 py-2 px-6 focus:outline-none hover:bg-purple-700 rounded-full text-base md:text-lg">
                     Get In Touch
                 </button>
             </div>
