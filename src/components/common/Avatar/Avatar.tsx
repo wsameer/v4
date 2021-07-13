@@ -6,7 +6,7 @@ export const Avatar: React.FC<AvatarProps> = React.memo(
         return (
             <div className="flex items-center text-center justify-center">
                 <img
-                    className={`h-${height} w-${width} rounded-full bg-purple-500 hover:bg-purple-600`}
+                    className="h-48 w-48 rounded-full bg-purple-500 hover:bg-purple-600"
                     src={srcFile}
                     alt="Person Avatar"
                 />
