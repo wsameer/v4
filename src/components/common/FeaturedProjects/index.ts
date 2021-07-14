@@ -1,0 +1,1 @@
+export { FeaturedProjects as default} from './FeaturedProjects';
