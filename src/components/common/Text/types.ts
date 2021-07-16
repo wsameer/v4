@@ -1,5 +1,5 @@
 export type TextProps = {
-    size:
+    readonly size:
         | 'text-xs'
         | 'text-sm'
         | 'text-base'
@@ -13,5 +13,5 @@ export type TextProps = {
         | 'text-7xl'
         | 'text-8xl'
         | 'text-9xl';
-    classes: string;
+    readonly classes: string;
 };
