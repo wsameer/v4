@@ -1,17 +1,15 @@
 import React from 'react';
+import type { FeaturedProjectProps } from './types';
 
-type Props = {
-    leftContent: any;
-    rightContent: any;
-};
-
-export const FeaturedProjects: React.FC<Props> = React.memo(
+export const FeaturedProject: React.FC<FeaturedProjectProps> = React.memo(
     ({ leftContent, rightContent }) => {
         return (
             <div>
-                {leftContent}
-                {rightContent}
+                <div className="text-left">{leftContent}</div>
+                <div className="text-right">{rightContent}</div>
             </div>
         );
     }
 );
+
+FeaturedProject.displayName = 'FeaturedProject';
