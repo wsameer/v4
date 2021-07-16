@@ -14,7 +14,7 @@ export const SideBox: React.FC = () => {
         <div className="md:flex-shrink-0">
             <div className="p-10 md:px-4 w-full md:w-72 lg:w-80 bg-gray-800 shadow-lg">
                 <Avatar height={'48'} width={'48'} srcFile={IMAGE_SRC} />
-                <div className="my-4 flex flex-col items-center text-center justify-center">
+                <div className="mt-4 flex flex-col items-center text-center justify-center">
                     <PersonName name={'Sameer Waskar'} />
                     <JobTitle value={'Software Engineer'} />
                     <Divider />
