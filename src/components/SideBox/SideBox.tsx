@@ -25,7 +25,7 @@ export const SideBox: React.FC = () => {
                 <a
                     href="https://drive.google.com/open?id=1FcHm8QjFCrSFgZBs3eJbNCv8yurd-iy3"
                     target="_blank"
-                    className="inline-flex text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-700 rounded-full text-base md:text-lg"
+                    className="inline-flex text-white bg-transparent hover:transparent border-2 border-purple-700 py-2 px-6 focus:outline-none hover:bg-purple-700 rounded-full text-base md:text-lg"
                 >
                     Download CV
                 </a>
