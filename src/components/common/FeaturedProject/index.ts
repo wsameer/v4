@@ -1,1 +1,1 @@
-export { FeaturedProject as default} from './FeaturedProject';
+export { FeaturedProject as default } from './FeaturedProject';
