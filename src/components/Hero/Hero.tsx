@@ -1,3 +1,4 @@
+import Button from '@components/common/Button';
 import Text from '@components/common/Text';
 import React from 'react';
 
@@ -5,8 +6,8 @@ export const Hero: React.FC = () => {
     return (
         <div className="mx-auto flex px-6 md:px-8 py-10 md:py-12 md:flex-row flex-col items-start">
             <div className="md:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start text-left">
-                <Text size="text-sm" classes="text-base lg:text-xl">
-                    Hi, my name is
+                <Text size="text-base" classes="text-base lg:text-xl">
+                    Hello! I'm
                 </Text>
                 <h1 className="title-font text-4xl md:text-6xl lg:text-7xl mt-6 font-bold text-white">
                     Sameer Waskar.
@@ -31,9 +32,9 @@ export const Hero: React.FC = () => {
                     </a>{' '}
                     focused on building a full-service, digital pharmacy.
                 </Text>
-                <button className="inline-flex text-white bg-purple-600 border-0 mt-4 py-2 px-6 focus:outline-none hover:bg-purple-700 rounded-full text-base md:text-lg">
-                    Get In Touch
-                </button>
+                <Button variant="solid">
+                    <span>Let's Talk</span>
+                </Button>
             </div>
         </div>
     );
