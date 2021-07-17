@@ -34,10 +34,26 @@ export const Work: React.FC = () => {
                         links={projectOne.links}
                     />
                 }
-                rightContent={null}
+                rightContent={
+                    <a href="" target="_blank">
+                        <img
+                            src="./img/octoprofile-plus.png"
+                            alt="Octo Profile Plus Image"
+                            className="shadow-7xl opacity-50 hover:opacity-100"
+                        />
+                    </a>
+                }
             />
             <FeaturedProject
-                leftContent={null}
+                leftContent={
+                    <a href="" target="_blank">
+                        <img
+                            src="./img/reakt-dashboard-image.png"
+                            alt="Reakt Dashboard Image"
+                            className="shadow-7xl opacity-50 hover:opacity-100"
+                        />
+                    </a>
+                }
                 rightContent={
                     <ProjectDetails
                         title={projectTwo.title}
