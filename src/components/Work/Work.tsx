@@ -43,6 +43,7 @@ export const Work: React.FC = () => {
                         />
                     </a>
                 }
+                type={1}
             />
             <FeaturedProject
                 leftContent={
@@ -62,6 +63,7 @@ export const Work: React.FC = () => {
                         links={projectTwo.links}
                     />
                 }
+                type={2}
             />
         </div>
     );
