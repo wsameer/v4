@@ -14,7 +14,7 @@ export const ProjectDetails: React.FC<ProjectDescProps> = ({
                 {title}
             </h3>
             <div className="my-6 p-0 lg:p-4 lg:shadow-8xl bg-transparent lg:bg-gray-900 rounded">
-                <p className="text-base">{description}</p>
+                <p className="text-base md:text-sm">{description}</p>
             </div>
             <div className="inline-block mb-2">
                 {techList?.map((tech, index) => (
