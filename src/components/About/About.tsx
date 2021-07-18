@@ -3,7 +3,7 @@ import React from 'react';
 
 export const About: React.FC = () => {
     return (
-        <div className="mx-auto px-6 md:px-8 py-10 md:py-12items-start">
+        <div className="mx-auto p-6 md:px-10 md:py-12 items-start">
             <SectionTitle>
                 <span>About Me</span>
             </SectionTitle>
