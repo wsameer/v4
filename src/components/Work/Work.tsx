@@ -21,7 +21,7 @@ export const Work: React.FC = () => {
         };
 
     return (
-        <div className="mx-auto px-6 md:px-8 py-10 md:py-12">
+        <div className="mx-auto p-6 md:px-10 md:py-12">
             <SectionTitle>
                 <span>Some things I've built</span>
             </SectionTitle>
@@ -35,22 +35,22 @@ export const Work: React.FC = () => {
                     />
                 }
                 rightContent={
-                    <a href="" target="_blank">
+                    <a href="" target="_blank" className="hidden lg:block">
                         <img
                             src="./img/octoprofile-plus.png"
                             alt="Octo Profile Plus Image"
-                            className="shadow-7xl opacity-50 hover:opacity-100"
+                            className="shadow-7xl opacity-50 hover:opacity-100 hidden lg:block"
                         />
                     </a>
                 }
             />
             <FeaturedProject
                 leftContent={
-                    <a href="" target="_blank">
+                    <a href="" target="_blank" className="hidden lg:block">
                         <img
                             src="./img/reakt-dashboard-image.png"
                             alt="Reakt Dashboard Image"
-                            className="shadow-7xl opacity-50 hover:opacity-100"
+                            className="shadow-7xl opacity-50 hover:opacity-100 hidden lg:block"
                         />
                     </a>
                 }
