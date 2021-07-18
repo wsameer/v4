@@ -17,7 +17,8 @@ module.exports = {
         },
         boxShadow: {
             '7xl': '0 0 6px 3px rgb(30 30 31 / 59%)',
-            '8xl': '0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%)'
+            '8xl': '0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%)',
+            none: 'none'
         }
     },
     darkMode: 'media',
@@ -25,7 +26,7 @@ module.exports = {
     variants: {
         extend: {
             fontSmoothing: ['hover', 'focus'],
-            boxShadow: ['active']
+            boxShadow: ['responsive', 'hover', 'focus', 'active']
         }
     }
 };
