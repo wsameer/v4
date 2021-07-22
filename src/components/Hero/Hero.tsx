@@ -9,7 +9,7 @@ export const Hero: React.FC = () => {
                 <Text size="text-base" classes="text-base lg:text-xl">
                     Hello! I'm
                 </Text>
-                <h1 className="title-font text-4xl md:text-6xl lg:text-7xl mt-6 font-bold text-white">
+                <h1 className="title-font text-4xl md:text-6xl lg:text-7xl mt-3 md:mt-6 font-bold text-white">
                     Sameer Waskar.
                 </h1>
                 <h1 className="title-font text-4xl md:text-6xl lg:text-7xl mt-2 mb-6 font-bold text-gray-600">
