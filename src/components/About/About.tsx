@@ -8,7 +8,7 @@ export const About: React.FC = () => {
                 <span>About Me</span>
             </SectionTitle>
             <p className="mb-2 text-base md:text-lg">
-                Sameer is a software developer based out of{' '}
+                I am a software developer based out of{' '}
                 <a
                     href="https://goo.gl/maps/8hnGQVDp1spYLyzP7"
                     rel="noopener noreferrer"
@@ -18,7 +18,7 @@ export const About: React.FC = () => {
                     Pune, India
                 </a>
                 . With ruminations of using technology to make a positive impact
-                on a human life, Sameer has invested over a{' '}
+                on a human life, I have invested over a{' '}
                 <span className="font-semibold text-purple-400">decade</span> in
                 learning and practicing software development to distil complex
                 technical ideas into user-friendly interfaces.
@@ -26,7 +26,7 @@ export const About: React.FC = () => {
             <p className="mb-2 text-base md:text-lg">
                 Over the past{' '}
                 <span className="font-semibold text-purple-400">7 years</span>,
-                he has had the privilege of working in{' '}
+                I have had the privilege of working in{' '}
                 <a
                     href="https://vizitechsolutions.com"
                     rel="noopener noreferrer"
@@ -56,7 +56,7 @@ export const About: React.FC = () => {
                 domains.
             </p>
             <p className="mb-2 text-base md:text-lg">
-                These days, his main focus is to build platform, tools and
+                These days, my main focus is to build platform, tools and
                 products at{' '}
                 <a
                     href="https://www.medly.com/"
