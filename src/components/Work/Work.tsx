@@ -35,11 +35,11 @@ export const Work: React.FC = () => {
                     />
                 }
                 rightContent={
-                    <a href="" target="_blank" className="hidden lg:block">
+                    <a href="" target="_blank">
                         <img
                             src="./img/octoprofile-plus.png"
                             alt="Octo Profile Plus Image"
-                            className="shadow-7xl opacity-50 hover:opacity-100 hidden lg:block"
+                            className="shadow-7xl opacity-20 lg:opacity-100 lg:hover:opacity-100 lg:block"
                         />
                     </a>
                 }
@@ -47,11 +47,11 @@ export const Work: React.FC = () => {
             />
             <FeaturedProject
                 leftContent={
-                    <a href="" target="_blank" className="hidden lg:block">
+                    <a href="" target="_blank">
                         <img
                             src="./img/reakt-dashboard-image.png"
                             alt="Reakt Dashboard Image"
-                            className="shadow-7xl opacity-50 hover:opacity-100 hidden lg:block"
+                            className="shadow-7xl opacity-20 lg:opacity-100 lg:hover:opacity-100 lg:block"
                         />
                     </a>
                 }

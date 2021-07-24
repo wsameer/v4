@@ -22,7 +22,7 @@ export const FeaturedProject: React.FC<FeaturedProjectProps> = React.memo(
                     {leftContent}
                 </div>
                 <div
-                    className={`text-left md:text-right row-start-1 row-end-n1 col-start-1 col-end-n1 lg:col-start-6 lg:col-end-n1 ${getZIndexValue(
+                    className={`text-left lg:text-right row-start-1 row-end-n1 col-start-1 col-end-n1 lg:col-start-6 lg:col-end-n1 ${getZIndexValue(
                         'right'
                     )}`}
                 >
