@@ -7,6 +7,7 @@ export const Experience: React.FC = () => {
             <SectionTitle>
                 <span>Experience</span>
             </SectionTitle>
+            
         </div>
     );
 };

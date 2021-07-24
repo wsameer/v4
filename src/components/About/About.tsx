@@ -76,13 +76,11 @@ export const About: React.FC = () => {
                     <li className="text-sm md:text-base my-2">
                         JavaScript (ES6+)
                     </li>
-                    <li className="text-sm md:text-base my-2">React Redux</li>
+                    <li className="text-sm md:text-base my-2">React, Redux</li>
                     <li className="text-sm md:text-base my-2">
                         Node.js, Express
                     </li>
-                    <li className="text-sm md:text-base my-2">
-                        NextJS, Gatsby
-                    </li>
+                    <li className="text-sm md:text-base my-2">NextJS</li>
                     <li className="text-sm md:text-base my-2">Angular</li>
                     <li className="text-sm md:text-base my-2">
                         Styled Components
