@@ -32,9 +32,14 @@ export const Hero: React.FC = () => {
                     </a>{' '}
                     focused on building a full-service, digital pharmacy.
                 </Text>
-                <Button variant="solid">
-                    <span>Let's Talk</span>
-                </Button>
+                <div className="flex">
+                    <Button variant="solid">
+                        <span>Let's Talk</span>
+                    </Button>
+                    <Button variant="solid" className="ml-4">
+                        <span>Check my work</span>
+                    </Button>
+                </div>
             </div>
         </div>
     );
