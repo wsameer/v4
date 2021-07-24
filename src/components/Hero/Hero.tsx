@@ -6,19 +6,14 @@ export const Hero: React.FC = () => {
     return (
         <div className="mx-auto flex p-6 md:px-10 md:py-12 md:flex-row flex-col items-start">
             <div className="md:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start text-left">
-                <Text size="text-base" classes="text-base lg:text-xl">
-                    Hello! I'm
-                </Text>
-                <h1 className="title-font text-4xl md:text-6xl lg:text-7xl mt-3 md:mt-6 font-bold text-white">
-                    Sameer Waskar.
+                <Text className="text-base lg:text-xl">Hello! I'm</Text>
+                <h1 className="title-font text-6xl lg:text-7xl mt-3 md:mt-2 font-bold text-white">
+                    Sameer.
                 </h1>
-                <h1 className="title-font text-4xl md:text-6xl lg:text-7xl mt-2 mb-6 font-bold text-gray-600">
+                <h1 className="title-font text-5xl md:text-6xl lg:text-7xl mt-2 mb-6 font-bold text-gray-600">
                     I build things for the web.
                 </h1>
-                <Text
-                    size="text-base"
-                    classes={'mb-6 leading-relaxed lg:w-3/5'}
-                >
+                <Text className="text-base mb-6 leading-relaxed lg:w-3/5">
                     I'm a Pune-based software engineer who specializes in
                     building exceptional digital experiences. Currently, I'm a
                     Senior Software Engineer at{' '}
