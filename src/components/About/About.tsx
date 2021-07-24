@@ -8,7 +8,7 @@ export const About: React.FC = () => {
                 <span>About Me</span>
             </SectionTitle>
             <p className="mb-2 text-base md:text-lg">
-                I am a software developer based out of{' '}
+                I am a software engineer based out of{' '}
                 <a
                     href="https://goo.gl/maps/8hnGQVDp1spYLyzP7"
                     rel="noopener noreferrer"
