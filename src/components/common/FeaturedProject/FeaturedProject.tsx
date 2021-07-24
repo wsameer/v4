@@ -13,7 +13,7 @@ export const FeaturedProject: React.FC<FeaturedProjectProps> = React.memo(
             [type]
         );
         return (
-            <div className="mb-8 md:mb-10 grid grid-cols-12 items-center">
+            <div className="mb-8 md:mb-16 grid grid-cols-12 items-center">
                 <div
                     className={`text-left row-start-1 row-end-n1 col-start-1 col-end-n1 lg:col-start-1 lg:col-end-7 ${getZIndexValue(
                         'left'

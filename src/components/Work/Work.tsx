@@ -16,7 +16,7 @@ export const Work: React.FC = () => {
             title: 'Reakt Dashboard',
             description:
                 'A simple dashboard app consisting of 3 small React learner projects: Weather app with live timer, Premier League table with live updates and a Todo app with dark skin',
-            techList: ['Reactjs', 'GraphQL', 'Github API'],
+            techList: ['Reactjs', 'Bootstrap', 'Open Weather API'],
             links: [] as Array<ProjectLink>
         };
 
@@ -39,7 +39,7 @@ export const Work: React.FC = () => {
                         <img
                             src="./img/octoprofile-plus.png"
                             alt="Octo Profile Plus Image"
-                            className="shadow-7xl opacity-20 hover:opacity-100 hidden lg:block"
+                            className="shadow-7xl opacity-60 hover:opacity-100 hidden lg:block"
                         />
                     </a>
                 }
@@ -51,7 +51,7 @@ export const Work: React.FC = () => {
                         <img
                             src="./img/reakt-dashboard-image.png"
                             alt="Reakt Dashboard Image"
-                            className="shadow-7xl opacity-20 hover:opacity-100 hidden lg:block"
+                            className="shadow-7xl opacity-60 hover:opacity-100 hidden lg:block"
                         />
                     </a>
                 }
