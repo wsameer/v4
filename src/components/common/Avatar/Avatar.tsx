@@ -2,11 +2,11 @@ import React from 'react';
 import type { AvatarProps } from './types';
 
 export const Avatar: React.FC<AvatarProps> = React.memo(
-    ({ srcFile, height, width }) => {
+    ({ srcFile, height }) => {
         return (
             <div className="flex items-center text-center justify-center">
                 <img
-                    className="h-48 w-48 rounded-full bg-purple-500 hover:bg-purple-600"
+                    className={`h-${height} w-${height} rounded-full bg-purple-500 hover:bg-purple-600`}
                     src={srcFile}
                     alt="Person Avatar"
                 />
@@ -18,6 +18,5 @@ export const Avatar: React.FC<AvatarProps> = React.memo(
 Avatar.displayName = 'Avatar';
 
 Avatar.defaultProps = {
-    height: '48',
-    width: '48'
+    height: '48'
 };
