@@ -35,7 +35,7 @@ const App: React.FC = () => {
         <div className="min-h-screen bg-gray-700 md:p-6">
             <PageLayout>
                 <SideBox />
-                <div className="ml-72 lg:ml-80 flex flex-col">
+                <div className="ml-0 sm:ml-72 lg:ml-80 flex flex-col">
                     {sections.map(({ id, component }, key) => (
                         <Section key={key} id={id}>
                             {component}
