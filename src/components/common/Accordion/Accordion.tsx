@@ -1,11 +1,9 @@
-import React from 'react'
+import React, { FC } from 'react';
+import { AccordionProvider } from './AccordionContext';
+import type { AccordionProps } from './types';
 
-export const Accordion:React.FC<AccordionProps> = ({children}) => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+export const Accordion: FC & AccordionProps = React.memo(({ children }) => {
+    return <>{children}</>;
+});
 
-Accordion.displayName = "Accordion";
+Accordion.displayName = 'Accordion';
