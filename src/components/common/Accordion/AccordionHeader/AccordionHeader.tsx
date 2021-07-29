@@ -14,7 +14,6 @@ export const AccordionHeader: React.FC<
     AccordionHeaderProps & { index: number }
 > = ({ index, organization, tenure, logo, position }) => {
     const { activeIndex, toggleAccordion } = useAccordion();
-    console.log(activeIndex, index);
     return (
         <div
             className="accordion-header flex items-center"
@@ -22,7 +21,7 @@ export const AccordionHeader: React.FC<
         >
             <div className="flex flex-grow items-center">
                 <div className="flex-grow-0 flex-shrink-0 mr-4 avatar">
-                    <Avatar srcFile={logo} width="48" />
+                    <Avatar srcFile={logo} width="48" bgColor="bg-gray" />
                 </div>
                 <div className="content">
                     <p className="text-xs font-medium mb-1">{tenure}</p>
