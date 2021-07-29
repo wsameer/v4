@@ -9,12 +9,12 @@ export const AccordionContent: React.FC<{
     return (
         <div
             className={`accordion-content my-2 ml-4 ${
-                activeIndex === index ? 'h-full' : 'hidden'
+                activeIndex === index ? 'block' : 'hidden'
             }`}
         >
             <ul className="p-2 list-disc list-outside">
                 {points.map((point, index) => (
-                    <li className="text-sm md:text-md" key={index}>
+                    <li className="text-sm md:text-md lg:text-lg" key={index}>
                         {point}
                     </li>
                 ))}
