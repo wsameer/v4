@@ -12,12 +12,8 @@
         "paths": {
             "@components": ["components"],
             "@components/*": ["components/*"],
-            "@pages": ["pages"],
-            "@pages/*": ["pages/*"],
-            "@routes": ["routes"],
-            "@routes/*": ["routes/*"],
-            "@utils": ["utils"],
-            "@utils/*": ["utils/*"]
+            "@hooks": ["hooks"],
+            "@hooks/*": ["hooks/*"]
         },
         "noEmit": true,
         "strict": true,
