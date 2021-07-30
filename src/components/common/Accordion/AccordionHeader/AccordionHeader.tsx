@@ -1,4 +1,5 @@
-import React from 'react';
+import { useMobileDetect } from '@hooks';
+import React, { useCallback, useMemo } from 'react';
 import { ChevronDown } from 'react-feather';
 import Avatar from '../../Avatar';
 import { useAccordion } from '../AccordionContext';
@@ -13,7 +14,11 @@ export type AccordionHeaderProps = {
 export const AccordionHeader: React.FC<
     AccordionHeaderProps & { index: number }
 > = ({ index, organization, tenure, logo, position }) => {
-    const { activeIndex, toggleAccordion } = useAccordion();
+    const { activeIndex, toggleAccordion } = useAccordion(),
+        { isMobile } = useMobileDetect(),
+        getAvatarWith = useCallback(() => (isMobile ? '32' : '48'), [isMobile]),
+        avatarWith = useMemo(() => getAvatarWith(), [getAvatarWith]);
+
     return (
         <div
             className="accordion-header flex items-center"
@@ -21,7 +26,11 @@ export const AccordionHeader: React.FC<
         >
             <div className="flex flex-grow items-center">
                 <div className="flex-grow-0 flex-shrink-0 mr-4 avatar">
-                    <Avatar srcFile={logo} width="48" bgColor="bg-gray" />
+                    <Avatar
+                        srcFile={logo}
+                        width={avatarWith}
+                        bgColor="bg-gray"
+                    />
                 </div>
                 <div className="content">
                     <p className="text-xs font-medium mb-1">{tenure}</p>
@@ -33,8 +42,8 @@ export const AccordionHeader: React.FC<
                     </h5>
                 </div>
             </div>
-            <div className="action hidden md:block flex-grow-0 flex-shrink-0">
-                <button className="flex items-center justify-center relative w-9 h-9 rounded-lg focus:outline-none text-gray-400 hover:bg-gray-900 group">
+            <div className="action flex-grow-0 flex-shrink-0">
+                <button className="flex items-center justify-end md:justify-center relative w-5 md:w-9 h-5 md:h-9 rounded-lg focus:outline-none text-gray-400 group">
                     <ChevronDown
                         height="16"
                         className={`transition ${
