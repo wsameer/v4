@@ -8,6 +8,7 @@ export default {
         '@app': './src',
         '@public': './public',
         '@components': './src/components',
+        '@hooks': './src/hooks',
     },
     plugins: [
         '@snowpack/plugin-react-refresh',
