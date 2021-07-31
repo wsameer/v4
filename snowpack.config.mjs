@@ -2,13 +2,13 @@
 export default {
     mount: {
         public: { url: '/', static: true },
-        src: { url: '/dist' },
+        src: { url: '/dist' }
     },
     alias: {
         '@app': './src',
         '@public': './public',
         '@components': './src/components',
-        '@hooks': './src/hooks',
+        '@hooks': './src/hooks'
     },
     plugins: [
         '@snowpack/plugin-react-refresh',
@@ -18,9 +18,9 @@ export default {
             '@snowpack/plugin-typescript',
             {
                 /* Yarn PnP workaround: see https://www.npmjs.com/package/@snowpack/plugin-typescript */
-                ...(process.versions.pnp ? { tsc: 'yarn pnpify tsc' } : {}),
-            },
-        ],
+                ...(process.versions.pnp ? { tsc: 'yarn pnpify tsc' } : {})
+            }
+        ]
     ],
     routes: [
         /* Enable an SPA Fallback in development: */
@@ -31,12 +31,12 @@ export default {
         // "bundle": true,
     },
     packageOptions: {
-        types: true,
+        types: true
     },
     devOptions: {
-        tailwindConfig: './tailwind.config.js',
+        tailwindConfig: './tailwind.config.js'
     },
     buildOptions: {
-        baseUrl: 'http://localhost:8080/',
-    },
+        baseUrl: 'http://localhost:8080/'
+    }
 };
