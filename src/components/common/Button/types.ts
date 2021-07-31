@@ -1,4 +1,9 @@
-export type ButtonProps = {
+import type { HTMLProps } from 'react';
+
+export interface ButtonProps extends React.ComponentPropsWithoutRef<'button'> {
+    as?: any;
+    to?: string;
     variant?: 'solid' | 'flat' | 'outlined';
-    className?: string;
-};
+    disabled?: boolean;
+    type?: 'button' | 'reset' | 'submit';
+}
