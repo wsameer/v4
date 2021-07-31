@@ -1,10 +1,11 @@
 import Button from '@components/common/Button';
 import Text from '@components/common/Text';
 import React from 'react';
+import type { Props } from './types';
 
-export const Hero: React.FC = () => {
+export const Hero: React.FC<Props> = ({ executeScroll }) => {
     return (
-        <div className="mx-auto flex p-6 md:px-10 md:py-12 md:flex-row flex-col items-start">
+        <div className="mx-auto flex px-6 py-12 md:px-10 md:flex-row flex-col items-start">
             <div className="md:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start text-left">
                 <Text className="text-base lg:text-xl">Hello! I'm</Text>
                 <h1 className="title-font text-6xl lg:text-7xl mt-3 md:mt-2 font-bold text-white">
@@ -28,10 +29,14 @@ export const Hero: React.FC = () => {
                     focused on building a full-service, digital pharmacy.
                 </Text>
                 <div className="flex">
-                    <Button variant="solid">
+                    <Button variant="solid" onClick={() => executeScroll(4)}>
                         <span>Let's Talk</span>
                     </Button>
-                    <Button variant="solid" className="ml-4">
+                    <Button
+                        variant="solid"
+                        className="ml-4"
+                        onClick={() => executeScroll(3)}
+                    >
                         <span>Check my work</span>
                     </Button>
                 </div>
