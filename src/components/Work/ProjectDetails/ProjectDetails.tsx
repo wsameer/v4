@@ -9,7 +9,7 @@ export const ProjectDetails: React.FC<ProjectDescProps> = ({
 }) => {
     return (
         <div className="p-6 lg:p-2 shadow-8xl lg:shadow-none">
-            <h5 className="mb-1 text-base text-purple-400">Featured project</h5>
+            <span className="mb-1 text-base text-purple-400">Featured project</span>
             <h3 className="text-xl md:text-2xl text-white font-bold">
                 {title}
             </h3>

@@ -33,9 +33,9 @@ export const AccordionHeader: React.FC<
                     <h3 className="font-bold text-base text-gray-300 md:text-xl">
                         {position}
                     </h3>
-                    <h5 className="font-semibold text-sm md:text-lg text-gray-500">
+                    <h4 className="font-semibold text-sm md:text-lg opacity-70 text-gray-300">
                         {organization}
-                    </h5>
+                    </h4>
                 </div>
             </div>
             <div className="action flex-grow-0 flex-shrink-0">
