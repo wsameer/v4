@@ -7,28 +7,32 @@ export const Socials: React.FC = React.memo(() => {
         {
             id: 1,
             logo: <GitHub size={20} />,
-            url: 'https://github.com/wsameer'
+            url: 'https://github.com/wsameer',
+            label: 'GitHub'
         },
         {
             id: 2,
             logo: <Linkedin size={20} />,
-            url: 'https://www.linkedin.com/in/wsameer'
+            url: 'https://www.linkedin.com/in/wsameer',
+            label: 'LinkedIn'
         },
         {
             id: 3,
             logo: <Instagram size={20} />,
-            url: 'https://www.instagram.com/the_savage_lens/'
+            url: 'https://www.instagram.com/the_savage_lens/',
+            label: 'Instagram'
         },
         {
             id: 4,
             logo: <Twitter size={20} />,
-            url: 'https://twitter.com/thesavagelens'
+            url: 'https://twitter.com/thesavagelens',
+            label: 'Twitter'
         }
     ];
     return (
         <div className="flex justify-between">
-            {SOCIAL_ACCOUNTS.map(({ url, logo }, index) => (
-                <SocialLink key={index} url={url} logo={logo} />
+            {SOCIAL_ACCOUNTS.map((data, index) => (
+                <SocialLink key={index} {...data} />
             ))}
         </div>
     );
