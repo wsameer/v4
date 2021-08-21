@@ -13,7 +13,7 @@ export const SideBox: React.FC = () => {
     return (
         <div className="w-full md:w-72 lg:w-80 md:fixed md:flex-shrink-0">
             <div className="p-10 md:px-4 w-full bg-gray-800 shadow-lg">
-                <Avatar width={'180'} srcFile={IMAGE_SRC} bgColor="bg-purple" />
+                <Avatar width={'180'} srcFile={IMAGE_SRC} bgColor="purple" />
                 <div className="mt-4 flex flex-col items-center text-center justify-center">
                     <PersonName name={'Sameer Waskar'} />
                     <JobTitle value={'Full Stack Developer'} />

@@ -15,7 +15,7 @@ export const Hero: React.FC<Props> = ({ executeScroll }) => {
                     I build things for the web.
                 </h1>
                 <Text className="text-base mb-6 leading-relaxed lg:w-3/5">
-                    I'm a Pune-based software engineer who specializes in
+                    I'm a software engineer who specializes in
                     building exceptional digital experiences. Currently, I'm a
                     Senior Software Engineer at{' '}
                     <a
