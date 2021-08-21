@@ -26,11 +26,7 @@ export const AccordionHeader: React.FC<
         >
             <div className="flex flex-grow items-center">
                 <div className="flex-grow-0 flex-shrink-0 mr-4 avatar">
-                    <Avatar
-                        srcFile={logo}
-                        width={avatarWith}
-                        bgColor="bg-gray"
-                    />
+                    <Avatar srcFile={logo} width={avatarWith} bgColor="gray" />
                 </div>
                 <div className="content">
                     <p className="text-xs font-medium mb-1">{tenure}</p>
@@ -43,7 +39,10 @@ export const AccordionHeader: React.FC<
                 </div>
             </div>
             <div className="action flex-grow-0 flex-shrink-0">
-                <button className="flex items-center justify-end md:justify-center relative w-5 md:w-9 h-5 md:h-9 rounded-lg focus:outline-none text-gray-400 group">
+                <button
+                    className="flex items-center justify-end md:justify-center relative w-5 md:w-9 h-5 md:h-9 rounded-lg focus:outline-none text-gray-400 group"
+                    aria-label="Expand accordion"
+                >
                     <ChevronDown
                         height="16"
                         className={`transition ${
