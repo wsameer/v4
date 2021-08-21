@@ -11,7 +11,7 @@ export const Hero: React.FC<Props> = ({ executeScroll }) => {
                 <h1 className="title-font text-6xl lg:text-7xl mt-3 md:mt-2 font-bold text-white">
                     Sameer.
                 </h1>
-                <h1 className="title-font text-5xl md:text-6xl lg:text-7xl mt-2 mb-6 font-bold text-gray-600">
+                <h1 className="title-font text-5xl md:text-6xl lg:text-7xl mt-2 mb-6 font-bold text-gray-400">
                     I build things for the web.
                 </h1>
                 <Text className="text-base mb-6 leading-relaxed lg:w-3/5">
