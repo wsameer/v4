@@ -10,6 +10,7 @@ export const Avatar: React.FC<AvatarProps> = React.memo(
                     src={srcFile}
                     alt="Person Avatar"
                     width={width}
+                    loading="lazy"
                 />
             </div>
         );

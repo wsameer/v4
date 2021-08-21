@@ -40,6 +40,7 @@ export const Work: React.FC = () => {
                             src="./img/octoprofile-plus.png"
                             alt="Octo Profile Plus Image"
                             className="shadow-7xl opacity-60 hover:opacity-100 hidden lg:block"
+                            loading="lazy"
                         />
                     </a>
                 }
@@ -52,6 +53,7 @@ export const Work: React.FC = () => {
                             src="./img/reakt-dashboard-image.png"
                             alt="Reakt Dashboard Image"
                             className="shadow-7xl opacity-60 hover:opacity-100 hidden lg:block"
+                            loading="lazy"
                         />
                     </a>
                 }
