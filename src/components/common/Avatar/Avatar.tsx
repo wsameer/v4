@@ -6,7 +6,7 @@ export const Avatar: React.FC<AvatarProps> = React.memo(
         return (
             <div className="flex items-center text-center justify-center">
                 <img
-                    className={`rounded-full ${bgColor}-500 hover:${bgColor}-600`}
+                    className={`rounded-full bg-${bgColor}-600`}
                     src={srcFile}
                     alt="Person Avatar"
                     width={width}
@@ -16,5 +16,10 @@ export const Avatar: React.FC<AvatarProps> = React.memo(
         );
     }
 );
+
+Avatar.defaultProps = {
+    bgColor: 'gray',
+    width: '20'
+};
 
 Avatar.displayName = 'Avatar';
