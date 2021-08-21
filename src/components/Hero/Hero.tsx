@@ -20,7 +20,7 @@ export const Hero: React.FC<Props> = ({ executeScroll }) => {
                     Senior Software Engineer at{' '}
                     <a
                         href="https://www.medly.com"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                         target="_blank"
                         className="text-purple-400"
                     >

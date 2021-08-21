@@ -11,7 +11,7 @@ export const About: React.FC = () => {
                 I am a software engineer based out of{' '}
                 <a
                     href="https://goo.gl/maps/8hnGQVDp1spYLyzP7"
-                    rel="noopener noreferrer"
+                    rel="noreferrer"
                     target="_blank"
                     className="font-semibold text-purple-400"
                 >
@@ -29,7 +29,7 @@ export const About: React.FC = () => {
                 I have had the privilege of working in{' '}
                 <a
                     href="https://vizitechsolutions.com"
-                    rel="noopener noreferrer"
+                    rel="noreferrer"
                     target="_blank"
                     className="font-semibold text-purple-400"
                 >
@@ -38,7 +38,7 @@ export const About: React.FC = () => {
                 ,{' '}
                 <a
                     href="https://www.securly.com/"
-                    rel="noopener noreferrer"
+                    rel="noreferrer"
                     target="_blank"
                     className="font-semibold text-purple-400"
                 >
@@ -47,7 +47,7 @@ export const About: React.FC = () => {
                 , and{' '}
                 <a
                     href="https://www.koruux.com/"
-                    rel="noopener noreferrer"
+                    rel="noreferrer"
                     target="_blank"
                     className="font-semibold text-purple-400"
                 >
@@ -60,7 +60,7 @@ export const About: React.FC = () => {
                 products at{' '}
                 <a
                     href="https://www.medly.com/"
-                    rel="noopener noreferrer"
+                    rel="noreferrer"
                     target="_blank"
                     className="font-semibold text-purple-400"
                 >

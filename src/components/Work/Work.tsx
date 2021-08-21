@@ -35,7 +35,12 @@ export const Work: React.FC = () => {
                     />
                 }
                 rightContent={
-                    <a href="" target="_blank" className="hidden md:block">
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noreferrer"
+                        className="hidden md:block"
+                    >
                         <img
                             src="./img/octoprofile-plus.png"
                             alt="Octo Profile Plus Image"
@@ -48,7 +53,12 @@ export const Work: React.FC = () => {
             />
             <FeaturedProject
                 leftContent={
-                    <a href="" target="_blank" className="hidden md:block">
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noreferrer"
+                        className="hidden md:block"
+                    >
                         <img
                             src="./img/reakt-dashboard-image.png"
                             alt="Reakt Dashboard Image"
